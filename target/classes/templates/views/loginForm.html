@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{fragments/main_layout}">
+<head>
+    <title>Register Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+
+<div layout:fragment="content" class="container mySpace">
+    <div class="alert alert-danger" th:if="${param.error}">
+
+        <h2>Invalid Email or Password</h2>
+    </div>
+    <form method="post" th:action="@{/login}">
+
+        <div class="form-group">
+            <label for="email" class="form-control-label">Email</label> <input
+                type="text" class="form-control"  id="email" name="username" />
+
+        </div>
+        <div class="form-group">
+            <label for="password" class="form-control-label">Password</label> <input
+                type="password" class="form-control"
+                id="password"  name="password"/>
+        </div>
+
+        <input type="submit" value="Submit" class="btn btn-primary" />
+
+    </form>
+</div>
+</body>
+</html>

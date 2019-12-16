@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8c74eb92-534c-4a95-95ba-0ee198a77f0d" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1TwH9zflRi9jEagfWzUALbTI3kh" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/templates/views" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/templates/views" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="EShopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="e-shop" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.neobis.eshop.EShopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c74eb92-534c-4a95-95ba-0ee198a77f0d" name="Default Changelist" comment="" />
+      <created>1574364090305</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574364090305</updated>
+      <workItem from="1574364092116" duration="268000" />
+      <workItem from="1574365930004" duration="583000" />
+      <workItem from="1574367100484" duration="570000" />
+      <workItem from="1574390822084" duration="130000" />
+      <workItem from="1574393083087" duration="3765000" />
+      <workItem from="1574413628465" duration="231000" />
+      <workItem from="1574796532471" duration="2443000" />
+      <workItem from="1574841633835" duration="1497000" />
+      <workItem from="1575213407092" duration="1578000" />
+      <workItem from="1575223689828" duration="2021000" />
+      <workItem from="1575288422393" duration="5945000" />
+      <workItem from="1575371801319" duration="2388000" />
+      <workItem from="1575376745067" duration="918000" />
+      <workItem from="1575382194986" duration="599000" />
+      <workItem from="1575468241275" duration="4859000" />
+      <workItem from="1575515130029" duration="942000" />
+      <workItem from="1575625623055" duration="13212000" />
+      <workItem from="1575665113482" duration="28000" />
+      <workItem from="1575719500754" duration="5406000" />
+      <workItem from="1575887339525" duration="12678000" />
+      <workItem from="1575905486823" duration="213000" />
+      <workItem from="1575962633904" duration="2472000" />
+      <workItem from="1576067636068" duration="1211000" />
+      <workItem from="1576075890330" duration="2826000" />
+      <workItem from="1576081276385" duration="4631000" />
+      <workItem from="1576134353974" duration="1883000" />
+      <workItem from="1576141464795" duration="4367000" />
+      <workItem from="1576326636784" duration="2175000" />
+      <workItem from="1576336719814" duration="285000" />
+      <workItem from="1576337219766" duration="184000" />
+      <workItem from="1576340232892" duration="2398000" />
+      <workItem from="1576384836287" duration="2222000" />
+      <workItem from="1576485104668" duration="3967000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
