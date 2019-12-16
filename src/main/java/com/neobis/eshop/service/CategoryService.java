@@ -26,6 +26,7 @@ public class CategoryService {
                 .map(category-> {
                     category.setId(categoryEntity.getId());
                     category.setName(categoryEntity.getName());
+                    category.setTags(categoryEntity.getTags());
                     category.setImage(categoryEntity.getImage());
                     category.setActive(categoryEntity.isActive());
                     category.setSubCategories(categoryEntity.getSubCategories());

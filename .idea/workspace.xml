@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c74eb92-534c-4a95-95ba-0ee198a77f0d" name="Default Changelist" comment="" />
+    <list default="true" id="8c74eb92-534c-4a95-95ba-0ee198a77f0d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neobis/eshop/entity/CategoryEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neobis/eshop/entity/CategoryEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neobis/eshop/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neobis/eshop/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neobis/eshop/entity/CategoryEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neobis/eshop/entity/CategoryEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neobis/eshop/service/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neobis/eshop/service/CategoryService.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +128,8 @@
       <workItem from="1576337219766" duration="184000" />
       <workItem from="1576340232892" duration="2398000" />
       <workItem from="1576384836287" duration="2222000" />
-      <workItem from="1576485104668" duration="3967000" />
+      <workItem from="1576485104668" duration="4690000" />
+      <workItem from="1576498443252" duration="264000" />
     </task>
     <servers />
   </component>

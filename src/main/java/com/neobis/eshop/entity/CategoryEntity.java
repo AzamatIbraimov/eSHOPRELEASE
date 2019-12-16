@@ -13,10 +13,10 @@ public class CategoryEntity {
     @Column(name = "category_id")
     private Integer id;
 
-    @Column(name = "name",length = 255)
+    @Column(name = "name", length = 255)
     private String name;
 
-    @Column(name = "image",length = 10000)
+    @Column(name = "image", length = 10000)
     private String image;
 
     @Column(name = "is_active")
@@ -27,15 +27,19 @@ public class CategoryEntity {
     @JoinColumn(name = "category_id", referencedColumnName = "category_id")
     private List<SubCategoryEntity> subCategories;
 
+    @OneToMany(cascade = CascadeType.ALL)
+    @JoinColumn(name = "category_id", referencedColumnName = "category_id")
+    private List<TagEntity> tags;
 
     public CategoryEntity() {
     }
 
-    public CategoryEntity(String name, String image, boolean isActive, List<SubCategoryEntity> subCategories) {
+    public CategoryEntity(String name, String image, boolean isActive, List<SubCategoryEntity> subCategories, List<TagEntity> tags) {
         this.name = name;
         this.image = image;
         this.isActive = isActive;
         this.subCategories = subCategories;
+        this.tags = tags;
     }
 
     public Integer getId() {
@@ -77,5 +81,15 @@ public class CategoryEntity {
     public void setSubCategories(List<SubCategoryEntity> subCategories) {
         this.subCategories = subCategories;
     }
+
+    public List<TagEntity> getTags() {
+        return tags;
+    }
+
+    public void setTags(List<TagEntity> tags) {
+        this.tags = tags;
+    }
 }
+
+
 
