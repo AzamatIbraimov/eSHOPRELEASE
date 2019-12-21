@@ -4,6 +4,7 @@ import com.neobis.eshop.entity.OrderEntity;
 import com.neobis.eshop.entity.ProductEntity;
 import com.neobis.eshop.entity.enums.Status;
 import com.neobis.eshop.repository.OrderRepository;
+import com.neobis.eshop.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -16,6 +17,10 @@ import java.util.List;
 public class OrderService {
     @Autowired
     private OrderRepository orderRepository;
+
+    @Autowired
+    private ProductRepository productRepository;
+
 
     public OrderEntity findById(Integer id) throws Exception {
         return orderRepository.findById(id).orElseThrow(Exception::new);
@@ -30,7 +35,11 @@ public class OrderService {
         return orderRepository.findById(id)
                 .map(order-> {
                     order.setId(orderEntity.getId());
-                    order.setTotal(calculatePrice(orderEntity));
+                    try {
+                        order.setTotal(calculatePrice(orderEntity));
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
                     order.setOrderDate(orderEntity.getOrderDate());
                     order.setUserEmail(orderEntity.getUserEmail());
                     order.setAddress(orderEntity.getAddress());
@@ -40,7 +49,7 @@ public class OrderService {
                 }).orElseThrow( Exception::new);
     }
 
-    public OrderEntity createOrder(OrderEntity orderEntity)  {
+    public OrderEntity createOrder(OrderEntity orderEntity) throws Exception {
         orderEntity.setTotal(calculatePrice(orderEntity));
         orderEntity.setStatus(Status.NEW);
         orderEntity.setOrderDate(Date.from(Instant.now()));
@@ -61,10 +70,11 @@ public class OrderService {
     }
 
 
-    public BigDecimal calculatePrice(OrderEntity orderEntity){
+    public BigDecimal calculatePrice(OrderEntity orderEntity) throws Exception {
         BigDecimal total = BigDecimal.valueOf(0.0);
         for (ProductEntity product : orderEntity.getOrderItems()) {
             product.setInStock(false);
+            productRepository.save(product);
             total = total.add(product.getPrice());
             orderEntity.setTotal(total);
         }
